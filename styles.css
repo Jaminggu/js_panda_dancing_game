@@ -1,0 +1,67 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.background {
+    position: relative;
+    width: 700px; /* 원하는 크기로 조정 */
+    height: 100vh; /* 원하는 크기로 조정 */
+    background-image: url('images/stage_close.png');
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.start-button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2C2B40;
+    color: #b1e7f7;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dance-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panda-dance {
+    position: absolute;
+    width: 200px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+}
+
+.option-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.panda-option {
+    width: 120px;
+    height: auto;
+}
+
+.level-indicator {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    color: #FFF;
+}
